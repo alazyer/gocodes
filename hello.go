@@ -33,4 +33,14 @@ func main() {
     fmt.Println()
     tour.Defers()
 
+    fmt.Println()
+    fmt.Printf("Two dimension array of dx: %d, dy: %d is: %v\n", 2, 5, tour.Arrays(2, 5))
+
+    fmt.Println()
+    fmt.Println("First 10 numbers in Fibnacci array")
+    fibonacci := tour.Fibonacci()
+    for i := 0; i < 10; i++ {
+        fmt.Println(fibonacci())
+    }
+
 }

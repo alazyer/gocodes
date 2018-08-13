@@ -25,4 +25,12 @@ func main() {
     fmt.Printf("Area of circle with Pi: %g radius: %g is %g\n", math.Pi, r, area)
     fmt.Printf("Area of circle with Pi: %g radius: %g is %g\n", tour.Pi, r, area1)
     tour.BasicTypes()
+
+    fmt.Println("Sqrt of 10 with 10 time loop is: ", tour.Sqrt1(10))
+    fmt.Println()
+    fmt.Println("Sqrt of 10 with margin smaller than 0.0001 is: ", tour.Sqrt2(10))
+
+    fmt.Println()
+    tour.Defers()
+
 }

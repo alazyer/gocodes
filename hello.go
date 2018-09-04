@@ -6,6 +6,7 @@ import(
     "math/rand"
 
     "github.com/alazyer/gocodes/tour"
+    "github.com/alazyer/gocodes/pkg"
 )
 
 
@@ -43,4 +44,7 @@ func main() {
         fmt.Println(fibonacci())
     }
 
+    pkg.CommonStrings()
+
 }
+

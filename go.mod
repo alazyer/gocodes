@@ -4,12 +4,15 @@ go 1.12
 
 require (
 	github.com/dexidp/dex v0.0.0-20190807135633-d9f6ab4a68d1
+	github.com/fortytw2/leaktest v1.3.0 // indirect
 	github.com/ghodss/yaml v1.0.0
 	github.com/jtblin/go-ldap-client v0.0.0-20170223121919-b73f66626b33
+	github.com/kisielk/errcheck v1.2.0 // indirect
+	github.com/mailru/easyjson v0.0.0-20190626092158-b2ccc519800e // indirect
 	github.com/olivere/elastic v6.2.23+incompatible
-	github.com/olivere/elastic/v7 v7.0.6
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/pflag v1.0.3
+	github.com/vrischmann/envconfig v1.2.0
 	gopkg.in/ldap.v2 v2.5.1
 	gopkg.in/ldap.v3 v3.0.3
 	gopkg.in/olivere/elastic.v6 v6.2.23
